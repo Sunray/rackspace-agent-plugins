@@ -33,7 +33,7 @@
 # if (metric['process_count'] == 0) {
 #     return new AlarmStatus(CRITICAL, 'Process not running. [#{date}] [#{process_name}]');
 # }
-
+#
 # return new AlarmStatus(OK, 'Process running normally. [#{date}] [#{process_name}] [#{process_count}]');
 #
 
