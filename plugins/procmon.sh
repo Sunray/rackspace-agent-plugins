@@ -26,6 +26,18 @@
 #
 #
 
+
+#
+# Sample Alarm:
+#
+# if (metric['process_count'] == 0) {
+#     return new AlarmStatus(CRITICAL, 'Process not running. [#{date}] [#{process_name}] [#{process_count}]');
+# }
+
+# return new AlarmStatus(OK, 'Process running normally. [#{date}] [#{process_name}] [#{process_count}]');
+#
+
+
 process_count=$(pgrep $1 | wc -l)
 
 echo "metric process_count int $process_count"
