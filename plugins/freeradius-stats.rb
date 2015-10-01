@@ -148,7 +148,6 @@ if !$?.success? or output =~ /no response/i
 
 else
 
-  print output
   lines = output.split(/\n/)
   
   # Filter out lines that are not important
