@@ -3,7 +3,7 @@
 # procmon.sh
 # Rackspace Cloud Monitoring Plugin to check if process is running.
 
-# (c) 2015, Sunray
+# (c) 2015 Sunray
 # All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
