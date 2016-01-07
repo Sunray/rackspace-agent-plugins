@@ -3,7 +3,7 @@
 # freeradius-stats.rb
 # Rackspace Cloud Monitoring Plugin to retrieve freeradius statistics 
 
-# (c) 2015 Sunray
+# (c) 2016 Sunray
 # All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
