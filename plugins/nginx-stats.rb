@@ -133,7 +133,6 @@ if !$?.success? or output !~ /Active connections:/
 
 else
 
-  print output
   lines = output.split(/\n/)
   
   connectionLines = lines.grep(Regexp.new(/Active connection/))
